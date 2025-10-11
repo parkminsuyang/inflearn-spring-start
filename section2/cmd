@@ -1,0 +1,5 @@
+./gradlew build
+cd builds/libs
+java -jar hello-spring-0.0.1-SNAPSHOT.jar
+./gradlew clean
+./gradlew clean build
